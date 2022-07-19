@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="asset/css/style.css">
+	<link rel="stylesheet" href="">
+	<title>admin</title>
+</head>
+<body>
+	
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand"><img src="asset/img/LogoKemenkoMaritim 2.png" alt="">Kementerian Koordinator Bidang Maritim dan Investasi</a>
+        <ul class="side-menu">
+			<li class="divider" data-text="DASHBOARD"></li>
+			<li><a href="index.html" ><i class='icon bx bx-home' ></i> Home</a></li>
+			<li class="divider" data-text="KELOLA DATA"></li>
+			<li><a href="Intepretasi_data_tabel.html"class="active"><i class='icon bx bx-table' ></i>Intepretasi Data Tabel</a></li>
+			<li><a href="Intepretasi_data_maps.html" ><i class=' icon bx bx-map' ></i>Intepretasi Data Maps</a></li>
+			<li><a href="Profil.html" ><i class=' icon bx bx-user' ></i> Profil</a></li>
+			<li><a href="Berita.html" ><i class=' icon bx bx-news' ></i> Berita</a></li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu toggle-sidebar' ></i>
+			<div class="logout">
+				<p><a href="login.html" class="position"><i class='icon bx bx-log-out' ></i>Keluar</a></p>
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+        <div class="head">
+            <h1 class="title">Intepretasi Data Tabel</h1>
+        </div>
+		<main>
+            <div class="form">
+                <h2>Provinsi</h2>
+                <input type="text" class="isi">
+                <br/>
+                <h2>IKU</h2>
+                <input type="text" class="isi">
+                <h2>IKA</h2>
+                <input type="text" class="isi">
+                <br/>
+                <h2>IKTL</h2>
+                <input type="text" class="isi">
+                <h2>Tahun</h2>
+                <input type="text" class="isi">
+                <br/>
+            </div>
+            <div class="aksi">
+                <a href="Intepretasi_data_tabel.html"><button type="button" class="simpan">Simpan</button></a><button type="button" class="batal">Batal</button>
+            </div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
+
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	<script src="script.js"></script>
+</body>
+</html>

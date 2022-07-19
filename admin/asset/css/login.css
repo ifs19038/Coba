@@ -1,0 +1,59 @@
+body{
+    background-image: url(../img/hutan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px;
+    width: 70%;
+    height: 50%;
+    position: relative;
+    box-shadow: 1px 0px 11px -3px rgba(0,0,0,0.7);
+-webkit-box-shadow: 1px 0px 11px -3px rgba(0,0,0,0.7);
+-moz-box-shadow: 1px 0px 11px -3px rgba(0,0,0,0.7);
+    border-radius: 25px;
+    font-family: sans-serif;
+}
+.container .container_top{
+    text-align: center;
+}
+.container .container_top h1{
+    margin-top: 0;
+}
+
+.container .container_top img{
+    width: 70px;
+}
+.container .form{
+    margin-left: 10rem;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.container .form .isi{
+    margin-top: 0;
+    width: 40rem;
+    height: 3rem;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 1px;
+}
+.container .container_bottom{
+    margin-top: 30px;
+    margin-left: 10rem;
+}
+.container .container_bottom .button{
+    width: 40rem;
+    height: 3rem;
+    font-size: 30px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #005618;
+    color: white;
+    margin-bottom: 50px;
+}

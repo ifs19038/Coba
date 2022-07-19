@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="asset/css/style.css">
+	<link rel="stylesheet" href="">
+	<title>admin</title>
+</head>
+<body>
+	
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand"><img src="asset/img/LogoKemenkoMaritim 2.png" alt="">Kementerian Koordinator Bidang Maritim dan Investasi</a>
+        <ul class="side-menu">
+			<li class="divider" data-text="DASHBOARD"></li>
+			<li><a href="index.html" ><i class='icon bx bx-home' ></i> Home</a></li>
+			<li class="divider" data-text="KELOLA DATA"></li>
+			<li><a href="Intepretasi_data_tabel.html"><i class='icon bx bx-table' ></i>Intepretasi Data Tabel</a></li>
+			<li><a href="Intepretasi_data_maps.html" class="active"><i class=' icon bx bx-map' ></i>Intepretasi Data Maps</a></li>
+			<li><a href="Profil.html" ><i class=' icon bx bx-user' ></i> Profil</a></li>
+			<li><a href="Berita.html" ><i class=' icon bx bx-news' ></i> Berita</a></li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu toggle-sidebar' ></i>
+			<div class="logout">
+				<p><a href="login.html" class="position"><i class='icon bx bx-log-out' ></i>Keluar</a></p>
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="top">
+				<h1 class="title">Intepretasi Data Maps<a href="maps_tambah.html"><button type="button" class="tambah">Tambah</button></a></h1>
+			</div>
+				<table class="table">
+					<tr>
+						<th>No</th>
+						<th style="width: 20rem;">Provinsi</th>
+						<th style="width: 8rem;">IKU</th>
+						<th style="width: 8rem;">IKA</th>
+						<th style="width: 8rem;">IKTL</th>
+						<th colspan="2" style="width: 17.5rem;">AKSI</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Sumatera Utara</td>
+						<td>83,2</td>
+						<td>83,2</td>
+						<td>83,2</td>
+						<td><a href="maps_edit.html"><button type="button" class="edit">Edit</button></a></td>
+						<td><button type="button" class="hapus">Hapus</button></td>
+					</tr>
+				</table>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
+
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	<script src="script.js"></script>
+</body>
+</html>
