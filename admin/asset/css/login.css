@@ -29,19 +29,22 @@ body{
 .container .container_top img{
     width: 70px;
 }
-.container .form{
+.container form{
     margin-left: 10rem;
-    font-size: 13px;
+    font-size: 30px;
     font-style: normal;
 }
 
-.container .form .isi{
+.container form .isi{
     margin-top: 0;
     width: 40rem;
     height: 3rem;
     border-radius: 10px;
     border-style: groove;
     border-width: 1px;
+}
+.container form input{
+    font-size: 25px;
 }
 .container .container_bottom{
     margin-top: 30px;
