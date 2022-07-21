@@ -46,11 +46,10 @@ body{
 .container form input{
     font-size: 25px;
 }
-.container .container_bottom{
+.container form .container_bottom{
     margin-top: 30px;
-    margin-left: 10rem;
 }
-.container .container_bottom .button{
+.container form .container_bottom .button{
     width: 40rem;
     height: 3rem;
     font-size: 30px;
