@@ -192,7 +192,7 @@ h3, h4, h5, h6{
     -webkit-box-shadow: -1px 11px 10px -1px rgba(0,0,0,0.38);
     -moz-box-shadow: -1px 11px 10px -1px rgba(0,0,0,0.38);
     border-radius: 15px;
-    background-color: #97FB86;
+    background-color: #f0f0f0;
 }
 
 .content1 h1{
@@ -259,7 +259,9 @@ h3, h4, h5, h6{
     color: #458D23;
 }
 .information p, a{
-    font-size: 14px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 .information a{
     color: #458D23;
